@@ -229,11 +229,11 @@ urls: !!map
   local:
     - "http://localhost:46657"
 
-  devtest:
-    - "http://192.168.254.162:46657"
-    - "http://192.168.254.163:46657"
-    - "http://192.168.254.164:46657"
-    - "http://192.168.254.161:46657"
+  bcbt:
+    - "https://test-earth.bcbchain.io/"
+    - "https://test-venus.bcbchain.io"
+    - "https://test-jupiter.bcbchain.io"
+    - "https://test-mercury.bcbchain.io"
 ```
 
 
