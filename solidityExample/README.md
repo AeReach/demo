@@ -202,11 +202,11 @@ contract CatchPet {
 ## 2. BCC工具配置
 
 - 主链配置：根据ChainID不同，修改bcc.yaml文件的defaultChainID字段，同时修改或添加对应的IP地址
-- 示例：ChainID = “devtest”
+- 示例：ChainID = “bcbt”
 
 ```shell
 # 默认配置
-defaultChainID: "devtest"
+defaultChainID: "bcbt"
 
 # 区块链知名入口
 urls: !!map
