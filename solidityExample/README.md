@@ -248,7 +248,7 @@ urls: !!map
 # 编译指令 
 # PS：-f为源码文件的路径
 # PS：-a为绑定代币的代币地址
-./bcc solDeploy -f ./CatchPet.solidity -a bcbtJ4zVVdGeVNNhBNYRNzoYAvDyyZdtwcDXS -n owner -p Ab1@Cd3$ -g 10000000 
+./bcc solDeploy -f ./CatchPet.sol -a bcbtJ4zVVdGeVNNhBNYRNzoYAvDyyZdtwcDXS -n owner -p Ab1@Cd3$ -g 100000000000 -o CatchPet 
 ```
 
 - 通过Remix编辑器编译

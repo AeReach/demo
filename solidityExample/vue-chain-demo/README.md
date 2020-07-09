@@ -32,7 +32,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 	* 方法二：目录下`Git`克隆下你的项目，然后执行`npm run build`
 3. 第三步：后台启动式实例：`npm run start &`
 4. 第三步：进程守护式启动： `nohup npm run start  >nohup.out &`
-5. 查看日志：`tailf nohup.out`
+5. 查看日志：`tail -f nohup.out`
 6. 杀死已启动的守护进程（执行两次）：`kill -9 $(ps -ef|grep -v grep|grep nuxt|awk '{print $2}')`
 
 ### 查看启动实例
